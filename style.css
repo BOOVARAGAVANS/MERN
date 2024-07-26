@@ -1,61 +1,153 @@
-nav{
-    margin-top: 30px;
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTky5VuMZ6Mbmx1A6V2NUWU2MgDCd0x0gxqkg&s);
 }
-.logo{
-    width: 250px;
-    height: 200px;
+.header
+{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding :20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image : url(https://thumbs.dreamstime.com/b/autumn-landscape-nature-background-dried-flowers-water-drops-rain-field-banner-selective-focus-75038244.jpg);
+}jpg
+.head
+{
+    font-size: 30px;
 }
-.a{
-    background-color: antiquewhite;
-    font-size: large;
-    font-weight: bold;
-}
-nav>a{
-    border: 3px solid rgb(255, 0, 0);
-    background-color: rgb(0, 0, 0);
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 80px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-a:hover{
-    color: blanchedalmond;
-}
-.idly{
-    margin-top: 100px;
-    margin-left: 100px;
-}
-.dosa{
-    margin-top: 150px;
+.nav a{
     margin-left: 50px;
-    margin-right: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    text-align: center;
+    font-size: 20px;
 }
-.arts{
-    margin-top: 150px;
-    margin-left: 100px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    text-align: center;
+.nav a:hover,
+.nav a.active
+{
+    color: khaki;
 }
-.art{
+.homee
+{
+    height: 100vh;
     display: flex;
+    align-items: center;
+    padding: 0 10%;
 }
-.hits{
+.home-content
+{
+    max-width: 400px;
+    margin: 20px 0 40px;
+}
+.home-content .btn-box
+{
+    width: 345px;
+    height: 50px;
     display: flex;
+    justify-content: space-between;
+
 }
-.foot{
-    margin-top: 50px;
-    font-size: larger;
+.btn-box a
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: lawngreen;
+    border: 2px solid #00abf0;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.btn-box a:hover,
+.btn-box a.active
+{
+    color: violet;
+}
+.home1
+{
+    padding-left: 100px;
+    width: 50px;
+    height: 100px;
+    padding-bottom: 300px;
+}
+#home2
+{
+height:400px;
+width:400px;
+padding-left:400px;
+}
+.home3
+{
+    padding-left: 130px;
+    padding-top: 80px;
+    height: 400px;
+    width: 350px;
+}
+.home5
+{
+    padding-left: 300px;
+
+}
+.sec
+{
+    display: flex;
+    background-image : url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTky5VuMZ6Mbmx1A6V2NUWU2MgDCd0x0gxqkg&s);
+}
+.column {
+    float: left;
+    width: 25.33%;
+    padding: 5px;
+  }
+  .row >div
+  {
+    height: 200px;
+    width: 300px;
+  }
+  .row{
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+  }
+  .sec3
+  {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTky5VuMZ6Mbmx1A6V2NUWU2MgDCd0x0gxqkg&s);
+    padding-bottom: 100px;
+    margin-top: 100px;
+  }
+  #Project {
+    box-sizing: border-box;
+    padding: 20px;
 }
 
-.new{
-    margin-right: 100px;
+.project__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.project__card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project__card h4 {
+    margin-top: 0;
+}
+
+.project__card p {
+    margin: 10px 0;
+}
+.Project,.Projectt
+{
+    display:flex;
+}
+tr
+{
+    cursor: pointer;
 }
